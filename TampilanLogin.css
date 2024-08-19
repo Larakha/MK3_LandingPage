@@ -1,0 +1,104 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 200vh;
+}
+
+body{
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/3d-illustration-blue-purple-futuristic-sci-fi-techno-lights-cool-background_181624-57587.jpg?w=1380&t=st=1699949348~exp=1699949948~hmac=09f3daac8b3e72795728bbf6349ad0b76ef9c3653b493297797be49f3afe59c8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.login-container {
+    margin-top: 130px;
+    background-color:#ae33e36b;
+    max-width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+    border: 1px #fff;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: hwb(273 0% 0%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: hwb(0 36% 64%);
+}
+
+button[type="submit2"] {
+    width: 100%;
+    padding: 10px;
+    background-color: hwb(273 0% 0%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: hwb(0 36% 64%);
+}
+button[type="submit3"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(122, 173, 255);
+    color: #fffefe;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: hwb(0 36% 64%);
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.social-media p{
+    align-items: center;
+    text-decoration: red;
+    font-size: larger;
+
+
+}
+img{
+    border-radius: 10px;
+}
